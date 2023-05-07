@@ -4,9 +4,8 @@ const Login = () => {
   const [error, setError] = useState('')
   const [users, setUser] = useState([])
   const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('hh')
+  const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
-  // const setErr = (err) => <p>{err}</p>
   const validateAdd = () => {
     setError('')
     if (email.trim().length < 1){
